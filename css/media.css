@@ -1,0 +1,203 @@
+@media (min-width:1300px) {}
+@media (max-width:1199px) {
+   
+}
+@media (max-width:1100px) {
+    .navigation .container {
+	    width: 100%;
+	}
+    .navigation .slicknav_btn.slicknav_collapsed {
+	    background: #005294;
+	    color: #fff !important;
+	    padding: 10px;
+	    top: 15px;
+    	right: 0px;
+	}
+	.navigation .slicknav_btn.slicknav_collapsed:before {
+	    color: #fff !important;
+	}
+}
+@media (max-width:991px) {
+    .container {
+	    width: 95%;
+	}
+	.term-detail .nav-tabs>li>a {
+	    padding: 10px;
+        font-size: 14px;
+	}
+}
+@media (max-width:767px) {
+    .swiper-banner .slider{
+	    height: 500px !important;
+	}
+    .ad-title span {
+	    display: inline;
+	    font-size: 28px;
+	}
+	.testimonial_094_indicators > .carousel-indicators li{
+		height: 70px;
+		width: 70px;
+	}
+	section.destination-padding {
+	    padding: 50px 0;
+	}
+	.breadcrumb-outer h2{
+		padding: 0;
+	    font-size: 25px;
+	}
+	.table-data {
+	    overflow: scroll;
+	}
+	/*.table-bordered>tbody>tr>td, .table-bordered>thead>tr>th {
+	    width: 120px !important;
+	    white-space: nowrap;
+	    word-break: break-all;
+	}*/
+	
+}
+@media (max-width:650px) {
+	.table-data table,
+	.table-data thead,
+	.table-data tbody,
+	.table-data th,
+	.table-data td,
+	.table-data tr {
+		display: block;
+	}
+    .table-data thead tr {
+	    position: absolute;
+	    top: -9999px;
+	    left: -9999px;
+  	}
+
+	.table-data tr {
+	    margin: 0;
+	    border-bottom: 2px solid #565656;
+	}
+	.table-data tr:nth-child(odd) {
+		background: #ccc;
+	}
+	.table-data .table tbody tr td {
+	    border: none;
+	    border-bottom: 1px solid #eee;
+	    position: relative;
+	    padding-left: 50%;
+	    min-height: 50px;
+	    display: block;
+	}
+
+	.table-data td:before {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 45%;
+	    padding-right: 10px;
+	    white-space: nowrap;
+	    line-height: 330%;
+	    background: #565656;
+	    padding: 0 10px;
+	    color: #fff;
+	    font-weight: 700;
+	}
+  	/*.continent-table td:nth-of-type(1):before {
+    	content: "TOUR NAME";
+  	}
+  	.continent-table td:nth-of-type(2):before {
+    	content: "Length";
+  	}
+  	.continent-table td:nth-of-type(3):before {
+    	content: "TOUR PRICE (FROM)";
+  	}
+  	.continent-table td:nth-of-type(4):before {
+    	content: "ACTIVITY LEVEL";
+  	}
+  	.continent-table td:nth-of-type(5):before {
+    	content: "DEPARTURE DATES";
+  	}*/
+  	.date td:nth-of-type(1):before {
+    	content: "Start Date";
+  	}
+  	.date td:nth-of-type(2):before {
+    	content: "End Date";
+  	}
+  	.date td:nth-of-type(3):before {
+    	content: "Price";
+  	}
+  	.date td:nth-of-type(4):before {
+    	content: "Single Supplement Price";
+  		white-space:inherit;
+    	line-height:17px;
+  	}
+  	.date td:nth-of-type(5):before {
+    	content: "Status";
+  	}
+  	.date td:nth-of-type(6):before {
+    	content: "Availability";
+  	}
+  	.date td:nth-of-type(7):before {
+    	content: "Action";
+  	}
+}
+@media (max-width:595px) {
+	section {
+	    padding: 50px 0 50px;
+	}
+   	.testimonial_094_indicators > .carousel-indicators .active{
+	   	height: 90px;
+	   	width: 90px;
+   	}
+   	.blog-content h3 {
+	    margin-bottom: 5px;
+	    font-size: 18px;
+	}
+	.blog-content p {
+	    font-size: 14px;
+	}
+	.footer-links h3{
+		margin-bottom: 20px;
+	}
+	.footer-links li{
+		margin-bottom: 0;
+	}
+	#testimonial_094{
+		min-height: auto;
+	}
+	.testimonial_094_indicators > .carousel-indicators{
+		position: relative;
+	    padding: 10px 0;
+	    line-height: normal;
+	}
+	.testimonial_094_slide > p {
+	    font-size: 15px;
+	}
+	.swiper-banner .slider{
+	    height: 400px !important;
+	}
+	.navbar-sticky{
+		position: relative !important;
+	}
+	.term-detail .nav-tabs li {
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+	.term-detail .nav-tabs li a{
+		border-radius: 0 !important;
+	}
+}
+@media (max-width:480px) {
+   	.width-full{
+   		width: 100%;
+   	}
+   	.lg-img {
+	    height: 250px;
+	}
+
+.breadcrumb-outer h2 {
+    font-size:20px;
+}
+.breadcrumb-outer .btn-blue {
+    padding: 7px 12px;
+    line-height: 14px;
+    border-radius: 5px;
+}
+}
